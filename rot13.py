@@ -32,4 +32,5 @@ for c in msg:
                 num -= 26
             elif num < ord('a'):
                 num += 26 
-    print chr(num)
+    sys.stdout.write(chr(num))
+print ""
